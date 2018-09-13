@@ -1,0 +1,49 @@
+PODS:
+  - Firebase/Core (4.0.1):
+    - FirebaseAnalytics (= 4.0.0)
+    - FirebaseCore (= 4.0.1)
+  - Firebase/Database (4.0.1):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - Firebase/Storage (4.0.1):
+    - Firebase/Core
+    - FirebaseStorage (= 2.0.0)
+  - FirebaseAnalytics (4.0.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.1):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GTMSessionFetcher/Core (1.1.10)
+  - SwiftSpinner (1.2.1)
+
+DEPENDENCIES:
+  - Firebase/Database
+  - Firebase/Storage
+  - SwiftSpinner
+
+SPEC CHECKSUMS:
+  Firebase: f984cd44a160be77ad0590f432e574562bfd4083
+  FirebaseAnalytics: 6f08e746f7d66f5452931bc2e822b5df9c66b64a
+  FirebaseCore: 06172c5a0744ab3dd14f778fd666c22855e20098
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+  SwiftSpinner: 62a28bbb4035f252a1e91b0e17fc40bdbbfa0aab
+
+PODFILE CHECKSUM: 62f30253fa3272d8aad33fda20f873315b04a911
+
+COCOAPODS: 1.2.1
